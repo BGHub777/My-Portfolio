@@ -1,0 +1,130 @@
+// nav {
+//     display: flex;
+//     flex-direction: column;
+//     font-size: 1.5rem;
+//     margin: 1% 0 0 0%;
+//         a {
+//             padding: .7%;
+//             color: white;
+//             background-color: black;
+//             margin: 0 85% 0 0;
+//             text-decoration: none;
+//                 &:hover {
+//                     font-weight: bold;
+//                 }
+//         }
+// }
+
+// 'MENU'
+.menu-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 1%;
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+    width: 5%;
+    &:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+}
+
+//MENU ITEMS BESIDES 'MENU'
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+}
+
+// MENU LIST
+.menu {
+    position: relative;
+    top: 5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+li {
+    position: relative;
+    bottom: 4.7rem;
+    margin: 1.5% 0 0% 1.75%;
+    width: 15%;
+    color: white;
+        a {
+            color: white;
+        }
+        &:hover {
+            color: white;
+            background-color: gray;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    margin: .5% 0 0 .5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title {
+    padding: 0 0% 0 0;
+}
+div {
+    width: 100%;
+    position: relative;
+    bottom: 0rem;
+}
+
+@keyframes colorswap {
+    0% {
+        color: #050922
+    }
+    10% {
+        color: #090f38
+    }
+    20% {
+        color: #0c154e
+    }
+    30% {
+        color: #101b64
+    }
+    40% {
+        color: #14217a
+    }
+    50% {
+        color: #172790
+    }
+    60% {
+        color: #14217a
+    }
+    70% {
+        color: #101b64
+    }
+    80% {
+        color: #0c154e
+    }
+    90% {
+        color: #090f38
+    }
+    100% {
+        color: #050922
+    }
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    position: relative;
+    bottom: 10.5rem;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    animation: colorswap 5s infinite;
+}
